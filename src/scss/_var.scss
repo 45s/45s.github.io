@@ -1,0 +1,14 @@
+$dark: #1d1d1b;
+$lime: lime;
+$orange: orange;
+$aqua: aqua;
+$blue: #008DFF;
+$pink: pink;
+$gray: #454545;
+$size: .5rem;
+
+
+
+@mixin b {
+  border: 1px solid red;
+}

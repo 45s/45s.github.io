@@ -1,3 +1,4 @@
+/* global require __dirname  module*/
 const path = require("path");
 const fs = require("fs");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
@@ -54,7 +55,7 @@ const config = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: '@babel/preset-env'
+            // presets: '@babel/preset-env'
           }
         }
       },

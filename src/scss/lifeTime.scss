@@ -1,0 +1,27 @@
+
+body {
+  // @include b;
+  display: flex;
+}
+
+.wr {
+  padding: 1rem;
+}
+
+#lifeTime {
+  margin: 5rem;
+  padding: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  h5 {
+    flex: 0 1 100%;
+  }
+
+  p {
+    width: $size;
+    height: $size;
+    margin: 0.1rem;
+    background: $gray;
+  }
+}

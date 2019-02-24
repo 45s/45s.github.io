@@ -7,8 +7,7 @@
     "dev": "webpack --mode development",
     "watch": "webpack --mode development --watch",
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production && prettier --print-width=120 --parser html --write dist/*.html",
-    "devLav": "webpack-dev-server --mode development --open"
+    "build": "webpack --mode production && prettier --print-width=120 --parser html --write dist/*.html"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
