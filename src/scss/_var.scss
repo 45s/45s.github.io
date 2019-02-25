@@ -5,10 +5,32 @@ $aqua: aqua;
 $blue: #008DFF;
 $pink: pink;
 $gray: #454545;
-$size: .5rem;
-
-
+$cellSize: .5rem;
 
 @mixin b {
   border: 1px solid red;
+}
+
+@mixin g {
+  border: 1px solid lime;
+}
+
+.bug {
+  @include bug(rgba(33, 44, 44, .9), 1 px solid red);
+
+  @include md-block {
+    background: green;
+  }
+
+  @include sm-block {
+    background: red;
+  }
+
+  @include xs-block {
+    background: yellow;
+  }
+
+  // @include xxs-block {
+  // background: blue;
+  // }
 }

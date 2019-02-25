@@ -23,18 +23,19 @@ body {
   text-align: center;
 }
 
-a,
-a:visited {
-  text-decoration: none;
-}
+a {
+  &:visited {
+    text-decoration: none;
+  }
 
-a:hover {
-  text-decoration: none;
-}
+  &:hover {
+    text-decoration: none;
+  }
 
-a:focus,
-a:active {
-  text-decoration: none;
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
 }
 
 .btn {
@@ -67,9 +68,9 @@ ul {
   list-style: none;
 }
 
-.wr {
+.wrap {
+  @include w;
   min-width: 32rem;
-  margin: 0 auto;
 }
 
 #pageTitle {
